@@ -1,0 +1,22 @@
+1. Install Nodejs, Visual studio code and Create an account for Azure cloud
+2. Create account on docker hub and Install Docker Desktop - Docker Runtime Engine
+3. Create Nodejs and Express application folder
+4. Import to Visual studio code
+5. Create REST Endpoint
+6. Create Dockerfile
+7. Create docker image
+8. Create Azure Container Registry
+9. Push docker image to azure container registry repository
+10. Create Azure Appservice for Container
+11. Deploy and Test application
+
+Docker commands
+----------------
+1. Login to ACR -> docker login
+2. Create docker image -> docker build -t <NAME_OF_IMAGE>:<VERSION> .
+3. List all docker images -> docker images
+4. Remove docker images-> docker tag application-one-img:latest application-one-img:v2
+5. Push image to ACR hub-> docker push <NAME_OF_IMAGE>:<VERSION>
+7. List all running containers-> docker ps
+8. Kill a running docker container-> docker kill <CONTAINER_ID>
+9. Remove images-> docker rmi -f <Name_Of_Image>
